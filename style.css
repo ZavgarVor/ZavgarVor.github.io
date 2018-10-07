@@ -1,0 +1,104 @@
+body {
+    background-color: ;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#test {
+    background-color: chartreuse;
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    border-radius: 35px;
+}
+#vid{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    background: black;
+}
+
+#form {
+    padding-left: 69%;
+    font-size: 22px;
+}
+.block{
+    width: 300px; /* Ширина слоя */
+    margin: 65px; /* Значение отступов */
+    padding: 10px; /* Поля вокруг текста */
+    border: 4px solid black;
+    
+    margin-right: 7px;
+    
+    border-top-width: 14px;
+    display: inline-block;
+    
+    margin-right: 4%;
+    border-radius: 27px ;
+}
+.tek {
+    background: black;
+    color: #2fd226;
+    font-size: 70px;
+    text-align: right;
+    margin-top: 39px; //
+}
+
+
+
+/* Футер  */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Футер   */
+
+
+/* меню */
+
+.nav {
+    margin: 20px 0;
+    width: 60%;
+}
+
+.nav li {
+    margin: 0 5px 10px 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav a {
+    padding: 3px 12px;
+    text-decoration: none;
+    color: #999;
+    line-height: 100%;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+.nav .current a {
+    background: #999;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+/* Меню  */
